@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: blanchedalmond;
+}
+/*flex => direct child of parents*/
+/* 
+section {
+  display: flex;
+} */
+
+.flex-container {
+  display: flex;
+}
