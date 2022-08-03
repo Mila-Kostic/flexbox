@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.flex-container {
+  width: 800px;
+  /* height: 300px; */
+  border: 1px solid red;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.box {
+  width: 250px;
+  height: 100px;
+  flex-grow: 1;
+}
+
+.box-1 {
+  background-color: chocolate;
+}
+.box-2 {
+  background-color: rgb(83, 54, 12);
+}
+.box-3 {
+  background-color: rgb(164, 20, 20);
+}
