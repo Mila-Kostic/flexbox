@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+.flex-container {
+  max-width: 750px;
+  border: 1px solid red;
+  margin: 50px auto;
+  display: flex;
+}
+
+.box {
+  width: 250px;
+  height: 100px;
+}
+.box-1 {
+  background-color: aquamarine;
+  flex-shrink: 1;
+}
+.box-2 {
+  background-color: coral;
+  flex-shrink: 3;
+}
+
+.box-3 {
+  background-color: grey;
+  flex-shrink: 8;
+}
