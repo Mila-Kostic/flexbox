@@ -4,21 +4,23 @@
 
 body {
   background-color: #fff;
-}
-
-.flex-container {
-  width: 800px;
-  /* height: 300px; */
-  border: 1px solid red;
-  margin: 50px auto;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
 }
-
+.flex-container {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+}
 .box {
-  width: 250px;
+  width: 100px;
   height: 100px;
   flex-grow: 1;
+  margin: 5px;
 }
 
 .box-1 {

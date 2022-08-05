@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.flex-container {
+  max-width: 800px;
+  border: 1px solid red;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  /* min-width: 350; flex-basis is better than min-width */
+  flex-basis: 350px;
+  height: 100px;
+  flex-grow: 1;
+}
+
+.box-1 {
+  background-color: skyblue;
+  /* flex-basis: 100px; */
+}
+.box-2 {
+  background-color: slateblue;
+  /* flex-basis: 100px; */
+}
+.box-3 {
+  background-color: teal;
+  /* flex-basis: 100px; */
+}
