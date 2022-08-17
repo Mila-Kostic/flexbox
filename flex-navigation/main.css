@@ -19,12 +19,12 @@
   background: #bcc4cc;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 600px) {
   .navigation {
     justify-content: space-around;
   }
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 300px) {
   .navigation {
     flex-flow: column wrap;
     padding: 0;
