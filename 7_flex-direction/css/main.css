@@ -3,17 +3,18 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: black;
 }
 
 .flex-container {
   max-width: 1200px;
-  border: 1px solid red;
+  height: 100vh;
+  /* border: 1px solid red; */
   margin: 50px auto;
-
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+
   /* flex-direction: row-reverse; */
   /* flex-direction: column; */
   /* flex-direction: column-reverse; */
