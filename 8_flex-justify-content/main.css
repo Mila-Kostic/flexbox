@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: burlywood;
+}
+
+.flex-container {
+  max-width: 1200px;
+  border: 1px solid red;
+  height: 50vh;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* flex-direction: column; //different view, we need set also e.g. height: 400px*/
+  /* justify-content: flex-start; */
+  /* justify-content: center; */
+  /* justify-content: flex-end; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
+}
+
+.box {
+  height: 20px;
+  flex: 0 0 150px;
+  border: 1px solid green;
+}
+
+.box-1 {
+  background-color: darkseagreen;
+}
+
+.box-2 {
+  background-color: chocolate;
+}
+
+.box-3 {
+  background-color: darkorchid;
+}
