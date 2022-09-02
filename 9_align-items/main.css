@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: burlywood;
+}
+
+.flex-container {
+  max-width: 1200px;
+  border: 1px solid red;
+  height: 55vh;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  flex-direction: column; /* osa se menja i treba promeniti u .box height on width*/
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  justify-content: space-between; /*main osa*/
+  /* align-items: flex-start; */ /*poprečna osa*/
+  /* align-items: center; */
+  align-items: flex-end;
+}
+/*Note:
+postoji i reverse za colimn i za row;
+opcijakada prikazemo width i height potrebno je da odaberemo i align-items i justify-content*/
+.box {
+  width: 50px; /*width kada je flex-direction column*/
+  /* height: 20px; */ /*height kada je flex-direction row*/
+  flex: 0 0 150px;
+  border: 1px solid red;
+}
+
+.box-1 {
+  background-color: darkcyan;
+}
+
+.box-2 {
+  background-color: coral;
+}
+
+.box-3 {
+  background-color: darksalmon;
+}

@@ -10,7 +10,6 @@ body {
   max-width: 1200px;
   border: 1px solid red;
   height: 50vh;
-
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -40,4 +39,4 @@ body {
 .box-3 {
   background-color: darkorchid;
 }
-/*justify-content this is*/
+
